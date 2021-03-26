@@ -1,0 +1,17 @@
+import React from 'react' //Or use imr
+import '../../App.css'
+import Card from '../Card'
+import Footer from '../Footer'
+import HeroSection from '../HeroSection'
+
+function Home () {
+    return (
+        <>
+            <HeroSection />
+            <Card />
+            <Footer />
+        </>
+    )
+}
+
+export default Home;
